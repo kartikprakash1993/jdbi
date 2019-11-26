@@ -4208,7 +4208,7 @@ that allows mapping nested Kotlin objects.
 
 [NOTE]
 Instead of using `@BindBean`, `bindBean()`, and `@RegisterBeanMapper` use `@BindKotlin`, `bindKotlin()`, and `KotlinMapper`
-for qualifiers on constrictor parameters, getter, setters, and setter parameters of Kotlin class.
+for qualifiers on constructor parameters, getter, setters, and setter parameters of Kotlin class.
 
 [NOTE]
 The `@ColumnName` annotation only applies while mapping SQL data into Java
